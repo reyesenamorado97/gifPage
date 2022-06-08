@@ -1,0 +1,46 @@
+html{
+    font-family: Arial;
+    background-color: black;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.title-label {
+    text-align: center;
+}
+
+
+
+.gif-textbox-area {
+    text-align: center;
+}
+
+
+
+.returnResult {
+    text-align: center;
+    flex:  33%;
+}
+
+.returnResult img {
+    width: 75%;
+}
+
+#gif-area {
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.more-gifs-area {
+    text-align: center;
+}

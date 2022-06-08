@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIPHY PARTY</title>
+</head>
+<body>
+    <div class="title-label">
+        <h1>
+            GIPHY PARTY
+        </h1>
+    </div>
+
+    <form id="form" action="http://api.giphy.com/v1/gifs/search?api_key=z9qEJKCAcrrMCA7q77qHJXLDkv111Kra&q=">
+
+        <div class="gif-textbox-area">
+            <input type="text" id="gif-textbox" name="gif-textbox" placeholder="Enter a search term"/>
+            <input type="submit" value="Search Giphy!" class="submit-button">
+        </div> 
+    </form>
+
+    <br>
+    <br>
+
+
+
+    <div id="gif-area"></div>
+
+
+    <div class="more-gifs-area">
+        <button id="more-button" type="button" class="more-button hidden">Show me more GIFs!</button>
+    </div>
+
+    <br>
+    <br>
+
+    <script src="app.js"></script>
+</body>
+</html>
